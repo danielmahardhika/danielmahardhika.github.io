@@ -734,6 +734,7 @@
         .timeline-content {
             color: #000000;
             line-height: 1.6;
+            text-align: justify;
         }
         
         @media (max-width: 768px) {
