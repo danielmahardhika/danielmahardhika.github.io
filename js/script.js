@@ -33,26 +33,25 @@
         
         window.addEventListener('scroll', () => {
             let current = '';
-            
+
             sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                
-                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
                     current = section.getAttribute('id');
                 }
             });
-            
+
             navLinks.forEach(link => {
                 link.classList.remove('active');
                 if (link.getAttribute('href').substring(1) === current) {
                     link.classList.add('active');
                 }
             });
-            
-            // Scroll Reveal Animation
-            revealElements();
+
+            revealElements(); // opsional jika kamu punya animasi scroll
         });
+
+        
         
         // Fungsi untuk animasi scroll reveal
         function revealElements() {
@@ -71,8 +70,8 @@
                 if (elementTop < windowHeight - revealPoint) {
                     element.classList.add('active');
                 } else {
-                    // Uncomment baris di bawah ini jika ingin elemen menjadi tidak terlihat lagi ketika di-scroll ke atas
-                    // element.classList.remove('active');
+                    //
+                    //element.classList.remove('active');
                 }
             });
         }
@@ -169,5 +168,6 @@
         }
 
         document.addEventListener("DOMContentLoaded", type);
+
 
 
