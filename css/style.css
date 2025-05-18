@@ -118,6 +118,7 @@
             position: relative;
             overflow: hidden;
             background-color: #ffffff;
+            text-align: justify;
         }
         
         .hero-content {
@@ -206,6 +207,7 @@
             max-width: 1200px;
             margin: 0 auto;
             background-color: #ffffff;
+            text-align: justify;
         }
         
         .section-title {
@@ -232,6 +234,7 @@
             max-width: 1200px;
             margin: 0 auto;
             background-color: #ffffff;
+            text-align: justify;
         }
         
         .project-grid {

@@ -134,9 +134,10 @@
 
         const textList = [
         "I'm a Data Scientist",
+        "I'm a Data Analyst",
         "I'm a Machine Learning Engineer",
         "I'm a Backend Developer",
-        "I'm a Software Engineer",
+        "I'm a Web Developer",
         ];
 
         let index = 0;
