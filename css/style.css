@@ -785,11 +785,11 @@
             .resume-timeline {
                 padding-left: 2.8rem;
             }
-            
+
             .resume-timeline::before {
                 left: 14px;
             }
-            
+
             .timeline-item::before {
                 left: -2.35rem;
                 width: 13px;
@@ -803,15 +803,15 @@
             .resume-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .resume-timeline {
                 padding-left: 2.5rem;
             }
-            
+
             .timeline-item {
                 padding-left: 0;
             }
-            
+
             .timeline-item::before {
                 left: -2.25rem;
                 width: 12px;
@@ -819,12 +819,12 @@
                 border-width: 2px;
                 transform: translateX(0);
             }
-            
+
             .resume-timeline::before {
                 left: 12px;
                 width: 2px;
             }
-            
+
             .timeline-info {
                 flex-direction: column;
                 align-items: flex-start;
@@ -837,11 +837,11 @@
             .resume-timeline {
                 padding-left: 2.2rem;
             }
-            
+
             .resume-timeline::before {
                 left: 10px;
             }
-            
+
             .timeline-item::before {
                 left: -2rem;
                 width: 10px;
@@ -849,11 +849,11 @@
                 border-width: 2px;
                 transform: translateX(0);
             }
-            
+
             .timeline-title {
                 font-size: 1.1rem;
             }
-            
+
             .timeline-subtitle {
                 font-size: 0.9rem;
             }
@@ -864,11 +864,11 @@
             .resume-timeline {
                 padding-left: 2rem;
             }
-            
+
             .resume-timeline::before {
                 left: 9px;
             }
-            
+
             .timeline-item::before {
                 left: -1.8rem;
                 width: 8px;
