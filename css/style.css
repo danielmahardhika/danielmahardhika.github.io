@@ -359,13 +359,35 @@
 
         .contact-item {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             gap: 1rem;
+            padding: 0.5rem 0;
         }
 
         .contact-item i {
             color: #333333;
             font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .contact-item div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-item h3 {
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .contact-item p {
+            margin: 0;
+            line-height: 1.4;
         }
 
         .contact-form form {
